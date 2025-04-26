@@ -10,5 +10,8 @@ export default defineConfig({
       plugins: [tailwindcss()],
   },
 
-  integrations: [react()]
+  integrations: [react()],
+  site: 'https://yourusername.github.io',
+  base: '/',
+  output: 'static'
 });
