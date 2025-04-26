@@ -11,7 +11,7 @@ export default defineConfig({
   },
 
   integrations: [react()],
-  site: 'https://yourusername.github.io',
-  base: '/',
+  site: 'https://mikecarlo.github.io',
+  base: 'GithubPages2',
   output: 'static'
 });
